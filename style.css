@@ -1,0 +1,43 @@
+.avator, .cityPicture, .imgct{
+    width: 100%;
+    height: auto;
+}
+body{
+    background-color: var(--tertiary);
+
+}
+.intro{
+    background-color: var(--secondary);
+    
+}
+
+.names{
+    color: var(--extra);
+    margin-top: 5em;
+}
+.city{
+    background-color: var(--extra) ;
+    padding: 1em;
+
+}
+.languages{
+    background-color: var(--pimary);
+    padding: 1em;
+}
+
+td{
+    border: 10px solid;
+}
+
+.historic_place{
+    background-color: var(--secondary);
+}
+
+
+:root {
+    --pimary: #14213d;
+    --secondary: #fca311;
+    --tertiary: #e5e5e5;
+    --extra: #ffffff;
+  }
+
