@@ -35,6 +35,13 @@ td{
     border: 10px solid;
     color: var(--pimary);
 }
+table{
+    overflow-y:scroll;
+    height:100px;
+    display:block;
+    margin: 1em;
+    padding: 1em;
+}
 
 .historic_place{
     background-color: var(--secondary);
