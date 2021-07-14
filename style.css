@@ -23,12 +23,13 @@ body{
 .city{
     background-color: var(--pimary) ;
     padding: 1em;
-    color: var(--pimary);
+    color: var(--tertiary);
 
 }
 .languages{
     background-color: var(--tertiary);
     padding: 1em;
+    color: var(--tertiary);
 }
 
 td{
@@ -45,11 +46,14 @@ table{
 
 .historic_place{
     background-color: var(--secondary);
+    color: var(--tertiary);
 }
 
 .histdata > div{
     margin: 1em;
+    padding: 1em;
     background-color: var(--pimary);
+    color: var(--tertiary);
 }
 
 :root {
