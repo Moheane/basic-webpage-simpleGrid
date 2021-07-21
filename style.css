@@ -61,7 +61,7 @@ table{
 }
 
 body{
-    background-image: url(/static/table.jpg);
+    background-image: url(./static/table.jpg);
     background-repeat: repeat;
     background-size: cover;
 }
