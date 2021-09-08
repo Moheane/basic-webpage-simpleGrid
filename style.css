@@ -59,6 +59,10 @@ table{
     background-color: var(--pimary);
     color: var(--tertiary);
 }
+.cont{
+    display: flex;
+    flex-direction: row;
+}
 
 body{
     background-image: url(./static/table.jpg);
@@ -70,5 +74,13 @@ body{
     --secondary: #fca311;
     --tertiary: #e5e5e5;
     --extra: #ffffff;
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    .cont{
+        display: flex;
+        flex-direction: row;
+    }
   }
 
